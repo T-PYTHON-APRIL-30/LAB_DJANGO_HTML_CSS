@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home Page </title>
+
+    {% load static %}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <link rel="stylesheet" href="{% static 'style/style.css' %}">
+</head>
+<body>
+    <header>
+        <img src="{% static 'img/logo_img.jpg' %}">
+        <div class="header-position">
+            <a href="" class="current">Home</a>
+            <a href="">Properties</a>
+            <a href="">Service</a>
+            <a href="">About</a>
+            <a href="">Contacts</a>
+        </div>
+        <div class="sign-button">
+            <button type="button"><span class="material-symbols-outlined">person</span>Sign up</button>
+        </div>
+    </header>
+    <div class="content">
+        <img src="{% static 'img/img1.jpg' %}">
+        <div class="title-position">
+            <h1>FIND YOUR DREAM</h1>
+            <p>Since 1896, The Architectural Review has scoured the globe for architecture that challenges and inspires.</p>
+            <button type="button">Catalog</button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <a href="" class="current"><span><img src="{% static 'img/building.png' %}"></span>all</a>
+            <a href=""><span><img src="{% static 'img/location.png' %}"></span>land lots</a>
+            <a href=""><span><img src="{% static 'img/commercial-buldings.png' %}"></span>office</a>
+            <a href=""><span><img src="{% static 'img/store.png' %}"></span>store</a>
+            <a href=""><span><img src="{% static 'img/appartment.png' %}"></span>apartment</a>
+            <a href=""><span><img src="{% static 'img/villa.png' %}"></span>villa</a>
+            <a href=""><span><img src="{% static 'img/home.png' %}"></span>house</a>
+        </div>
+    </footer>
+</body>
+</html>
