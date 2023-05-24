@@ -9,4 +9,5 @@
 - use a logo of your choosing.
 - use icons of your choosing (not necessarily like the below image)
 
-<img width="795" alt="Screenshot 2023-05-24 at 11 24 45 AM" style="width:100%" src="https://github.com/T-PYTHON-APRIL-30/LAB_DJANGO_HTML_CSS/assets/91186666/5ba66b46-0b73-4d3b-aa2e-0b9b4a283151">
+
+<img width="795" style="width:100%" alt="Screenshot 2023-05-24 at 11 24 45 AM" src="https://github.com/T-PYTHON-APRIL-30/LAB_DJANGO_HTML_CSS/assets/91186666/8e6b6250-7878-4595-ba04-66c2c8240122">
