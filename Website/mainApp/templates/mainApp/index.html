@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Assistant:wght@200&family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        <style>
+            img{
+                width: 200px;
+                height: 200px;
+            } 
+
+            .logo-container{
+            display: flex;
+            position: relative;
+            left: 2%;
+            }
+
+            body {
+                background-image: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-size: 100% 100%;
+              }
+
+            .navbar{
+                position: absolute;
+                top: 5%;
+                left: 30%;
+                list-style-type: none;
+                margin: 30px;
+                padding: 0;
+                overflow: hidden;
+                background-color: white;
+                border-top-left-radius:50px;
+                border-bottom-left-radius:50px;
+                border-top-right-radius:50px;
+                border-bottom-right-radius:50px;
+            }
+
+            .signup {
+            display: flex;
+            position: relative;
+            left: 85%;
+            bottom: 10%;
+            padding: 0;
+            }
+
+            .signup a{
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+                display: flex;
+                position: relative;
+                right: 2%;
+                bottom: 90;
+                padding: 3px;
+            }
+
+            .signup a:hover{
+                text-decoration: none;
+                color: blue;
+            }
+            
+            li {
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 17px
+            
+            }
+            
+            li a {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            /* Change the link color to #111 (black) on hover */
+            li a:hover {
+                color: blue;
+            }
+
+            h1{
+                font-family: 'Anton', sans-serif;
+                font-size: 80px;
+            }
+
+            .h1-title {
+                
+                float: left;
+                text-align: left;
+                padding: 20px 50px;
+                width: 35%;
+            }
+            p {
+                font-size: 20px;
+                font-family: 'Anton', sans-serif;
+                font-family: 'Assistant', sans-serif;
+            }
+
+           #catalog{
+                
+                font-size: 25px;
+                text-align: center;
+                color: white;
+                background-color: black;
+                width: 170px;
+                height: 45px;
+                display: flex;
+                justify-content:center;
+                border-top-left-radius:50px;
+                border-bottom-left-radius:50px;
+                border-top-right-radius:50px;
+                border-bottom-right-radius:50px;
+                text-decoration: none;
+                bottom: 140px;
+                align-items: center;
+                
+            }
+
+            footer{
+                background-color: white;
+                border-top-left-radius:50px;
+                border-bottom-left-radius:50px;
+                border-top-right-radius:50px;
+                border-bottom-right-radius:50px;
+                overflow: hidden;
+                position: fixed;
+                bottom: 0;
+                width: 70%;
+                height: 50%;
+                
+                display: flex;
+            
+            margin-top:1rem;
+                
+            }
+
+            footer li{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1rem;
+                text-decoration: none;
+                margin: auto;
+                font-size: 24px;
+                float: left;
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                justify-content: end;
+                flex-direction: row;
+
+            }
+           
+            .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+            }
+</style>
+
+            
+        </style>
+    </head>
+
+    <body>
+                <div class="logo-container">
+                    <img src='https://img.freepik.com/free-vector/house-logo-template-vector-interior-design-business_53876-136740.jpg?w=2000'>
+                </div>
+
+                <ul class="navbar">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Properties</a></li>
+                    <li><a href="">Service</a></li>
+                    <li> <a href="">About  </a></li>
+                    <li> <a href="" > Contacts </a></li>
+                  </ul>
+
+                  <div class="signup">
+                        <a href="" >  <span class="material-symbols-outlined">
+                        person </span> Sign up </a>
+                  </div>
+
+                <div class="h1-title">
+                    <h1>Find Your Dream</h1>
+                    <p>Our catalog will surprise you. Rather, discover <br> an Unprecedented offers of luxury properties.</p>
+                    <a href="" id="catalog">Catalog</a>
+                </div>
+
+                <footer style = "position:relative; left:270px; top:100px;">
+                    <ul>
+                        <li><a href=""> <span class="material-symbols-outlined">
+                            location_city </span> All</a></li>
+                        <li><a href=""><span class="material-symbols-outlined">
+                        pin_drop </span>Lands lots</a></li>
+                        <li><a href=""><span class="material-symbols-outlined">
+                            domain </span>Office</a></li>
+                        <li> <a href=""><span class="material-symbols-outlined">
+                            store </span>Store  </a></li>
+                        <li> <a href="" > <span class="material-symbols-outlined">
+                            apartment </span> Apartment </a></li>
+                        <li> <a href="" > <span class="material-symbols-outlined">
+                            villa </span> Villa </a></li>
+                        <li> <a href="" ><span class="material-symbols-outlined">
+                            cottage </span> House </a></li>
+                    </ul>
+                </footer>
+                    
+                
+
+                
+                
+            
+
+
+            
+        
+    </body> 
+</html>
