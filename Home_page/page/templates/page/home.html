@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Premier League Teams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+            
+        }
+
+		body {
+			background-image: url("https://d24wuq6o951i2g.cloudfront.net/img/events/id/319/3190224/assets/8bd.PL_1017_Patterns_03_PMS_2627c_HR.jpg");
+			background-size: fill;
+			background-repeat: no-repeat;
+			background-position: center;
+            margin: 0px;
+		}
+		.logo {
+			display: inline-block;
+			margin: 10px;
+			cursor: pointer;
+		}
+		#premier-league-logo {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			z-index: 1;
+			width: 200px;
+			height: auto;
+		}
+		#team-container {
+			display:flex;
+            position:relative;
+            flex-direction: row;
+            background-color: rgb(255, 246, 246);
+            top: 0px;
+            left: 0px;
+			padding: 20px;
+            justify-content: center;
+            align-items: start;
+            margin: 0px;
+	    }
+        
+		.team-logo {
+			background-size: contain;
+            background-repeat: no-repeat;
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+            
+		}
+        .team-logo:hover {
+            transform: translate(10px, -10px);
+            box-shadow: -10px -10px -15px rgb(11, 11, 114);
+            transition: 0.15s linear all;
+        }
+        .site {
+            text-align: center;
+            line-height: 100px;
+
+           
+            
+        }
+        
+        
+	</style>
+    <body>
+	<img src="https://www.premierleague.com/resources/ver/i/elements/premier-league-logo-header.png" alt="Premier League Logo" id="premier-league-logo">
+	<div>
+        <div id="team-container">
+            <div><p class="site" style="font-family: 'Open Sans', sans-serif;">Club sites</p></div>
+		    <div class="logo team-logo" style="background-image: url('https://assets.stickpng.com/images/580b57fcd9996e24bc43c4e7.png');" onclick="window.location.href='https://www.manutd.com/'"></div>
+		    <div class="logo team-logo" style="background-image: url('https://assets.stickpng.com/images/580b57fcd9996e24bc43c4e1.png');" onclick="window.location.href='https://www.chelseafc.com/'"></div>
+		    <div class="logo team-logo" style="background-image: url('https://logoeps.com/wp-content/uploads/2011/08/manchester-city-logo-vector.png');" onclick="window.location.href='https://www.mancity.com/'"></div>
+		    <div class="logo team-logo" style="background-image: url('https://logoeps.com/wp-content/uploads/2011/05/arsenal-logo-vector.png');" onclick="window.location.href='https://www.arsenal.com/'"></div>
+		    <div class="logo team-logo" style="background-image: url('https://assets.stickpng.com/images/580b57fcd9996e24bc43c4e5.png');" onclick="window.location.href='https://www.liverpoolfc.com/'"></div>
+		    <div class="logo team-logo" style="background-image: url('https://assets.stickpng.com/images/580b57fcd9996e24bc43c4e8.png');" onclick="window.location.href='https://www.tottenhamhotspur.com/'"></div>
+ 
+        </div>
+
+        <div></div>
+    </div>
+</body>
+</html>
