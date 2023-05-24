@@ -1,4 +1,6 @@
+# the output in output.png
 # LAB_DJANGO_HTML_CSS
+
 
 
 ## Create a website for a real estate agency , the website should have a home page that looks like the image below , you should :
