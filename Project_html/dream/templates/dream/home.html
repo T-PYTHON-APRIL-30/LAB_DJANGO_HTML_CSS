@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your dream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+*{
+ padding: 0px;
+ margin: 0px;
+ font-family: 'Playfair Display', serif;
+}
+.hero{          
+   width: 100%;
+   height: 90vh;
+    }            
+
+nav{
+  margin-left: 250px;
+  background: #f9f9f9;
+  padding-top: 10px;
+  border-radius: 50px;
+  position:absolute;
+  top: 0;
+  
+}
+nav .menuItems {
+  list-style: none;
+  display: flex;
+}
+nav .menuItems li {
+  margin: 50px;
+}
+nav .menuItems li a {
+  text-decoration: none;
+  color: #8f8f8f;
+  font-size: 24px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+nav .menuItems li a::before {
+  content: attr(data-item);
+  transition: 0.5s;
+  color: #8254ff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+nav .menuItems li a:hover::before {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.cont{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: #8254ff;
+    font-size: 60px;
+    font-weight: bold;
+}
+.menuIcons{
+  background-color:aqua;
+  text-align: center;
+  border-radius: 50px;
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display:inline;
+  
+  position: absolute;
+  bottom: 20px;
+  
+}
+.contanierIcons{
+  margin: 300px;
+}
+.material-symbols-outlined{
+  font-size: 50px;
+  margin: 25px;
+  padding-bottom: 5px;
+  align-items: center;
+
+}
+.logo{
+  width: 90px;
+  position:absolute;
+  top: 50px;
+  left: 60px;
+}
+        </style>
+
+    </head>
+    <body>
+      
+        <div>
+          <img class="logo" src="https://w7.pngwing.com/pngs/1001/763/png-transparent-house-log-cabin-split-level-home-logo-house.png"/>
+        <img class="hero" src="https://images.pexels.com/photos/1838640/pexels-photo-1838640.jpeg" \>
+        <nav>
+        <ul class="menuItems" >
+            <li><a data-item='Home' href="#">Home</a></li>
+            <li><a data-item='Properties' href="#">Properties</a></li>
+            <li><a data-item='Service' href="#">Service</a></li>
+            <li><a data-item='About' href="#">About</a></li>
+            <li><a data-item='Contacts' href="#">Contacts</a></li>
+          </ul>
+
+    </nav>
+    <h1 class="cont">Find Your Dream</h1>
+
+        <div class="contanierIcons">
+        <div class="menuIcons">
+            <span class="material-symbols-outlined">apartment</span>
+            <span class="material-symbols-outlined">pin_drop</span>
+            <span class="material-symbols-outlined">view_compact</span>
+            <span class="material-symbols-outlined">storefront</span>
+            <span class="material-symbols-outlined">location_city</span>
+            <span class="material-symbols-outlined">villa</span>
+            <span class="material-symbols-outlined">house</span>
+
+        </div>
+      </div>
+      </div>
+    </body>
+</html>
