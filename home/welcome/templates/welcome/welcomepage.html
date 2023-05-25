@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      border-radius: 25px;
+      background: #f7f8f5;
+      text-align: center;
+      width: 500px;
+      height: 50px;
+
+    }
+    
+    .tab2 {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      border-radius: 25px;
+      background: #f7f8f5;
+      text-align: center;
+      width: 800px;
+      height: 70px;
+
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .containerb {
+      width: 500px;
+      height: 50px;
+      grid-row-start: auto;
+    }
+
+    div {
+      grid-row: 1;
+    }
+
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    body {
+      background-image: url('image/home.jpg');
+      height: 200%;
+      width: 200%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .title1{
+      font-size: 40px;
+      color: #b898bbd3;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      width: 50px;
+    }
+    .title2{
+      font-size: 10px;
+      color: #527065;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      width: 50px;
+    }
+    .cataloge button {
+      background-color: #ddd;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+    <div class="tab">
+      <button onclick="openCity(event, 'Home')">Home</button>
+      <button onclick="openCity(event, 'Poropertise')">Poropertise</button>
+      <button onclick="openCity(event, 'Service')">Service</button>
+      <button onclick="openCity(event, 'About')">About</button>
+      <button onclick="openCity(event, 'Contact')">Contact</button>
+    </div>
+    <div>
+
+      <div class="title1">FIND'YOUR
+         DREAM</div>
+      <div class="title2">Lorem,ipsum'dolor'sit'amet'consectetur'adipisicing'elit.
+         Tenetur'numquam'dolorum'quas'adiure'consequuntur'minima,
+    </div>
+    <button class="cataloge">Cataloge</button>
+
+    <div class="tab2">
+      <div><h6>all</h6></div>
+      <div><h6>land dots</h6></div>
+      <div><h6>office</h6></div>
+      <div><h6>store</h6></div>
+      <div><h6>apartment</h6></div>
+      <div><h6>villa</h6></div>
+      <div><h6>house</h6></div>
+    </div>
+    <div>
+      
+   </div>
+
+  </div>
+
+</body>
+
+</html>
