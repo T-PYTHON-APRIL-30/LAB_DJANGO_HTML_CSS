@@ -1,0 +1,187 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Real Estate</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+            * {
+                margin: 0%;
+                padding: 0%;
+            }
+    
+            .menu_bar {
+
+                display: flex;
+                background-color:darkslategray;
+                height: 80px;
+                width: 630px;
+                margin-left: 20%;
+                margin-bottom: 50px;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 5%;
+                border-radius: 40px;
+            }
+            .services {
+
+                display: flex;
+                background-color:#ccced7;
+                height: 200px;
+                width: 1150px;
+                margin-left: 75px;
+                margin-top: 50px;
+                align-items: center;
+                justify-content: space-evenly;
+                padding: 0 5%;
+                border-radius: 100px;
+                overflow: hidden;
+                }
+                .services ul {
+                list-style: none;
+                display: flex;
+            }
+            .services li {
+                padding: 10px 50px;
+    
+            }
+            .services a {
+                color: black;
+                text-decoration: none;
+                font-size: 20px;
+
+                transition: all 0,5s;
+            }
+
+            .services a:hover {
+                color:dodgerblue;
+            }
+            .logo {
+                width: 100px;
+                height: 75px;
+                justify-content: start;
+                margin-left: 50px;
+                margin-top: 50px;
+                
+            }
+            .menu_bar ul {
+                list-style: none;
+                display: flex;
+            }
+            .menu_bar li {
+                padding: 10px 30px;
+            }
+            .menu_bar a {
+                color: aliceblue;
+                text-decoration: none;
+                font-size: 20px;
+
+                transition: all 0,5s;
+            }
+
+            .menu_bar a:hover {
+                color:dodgerblue;
+               
+            }
+            .slogen {
+                display: flex;
+                flex-direction: column;
+                font-family: 'Oswald', sans-serif;
+                font-size: 50px;
+                margin-left: 50px;
+            }
+            .paragraph {
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-direction: column;
+                font-size: 20px;
+            }
+            button {
+                width: 200px;
+                height: 50px;
+                border-radius: 25px;
+                text-align: center;
+                background-color: black;
+                color: white;
+                border: none;
+                cursor: pointer;
+                
+                
+            }
+            .signup {
+                display: flex;
+                flex-direction: row;
+                align-items: end;
+                z-index: 99;
+            }
+            body {
+                background-image: url("https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+                background-color: #cccccc;
+                height: 800px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div calss ="container">
+            <img class="logo" src = "{%static 'images/logo.png'%}"/>
+            <div calss="signup"> 
+                <span class="material-symbols-outlined">
+                person
+                </span> 
+                <h5>Sign up</h5>
+            </div>
+            <div class="menu_bar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="slogen">
+                <h1 >FIND YOUR<br>DREAM</h1>
+                <p class ="paragraph">Our catalog will surprise you. Rather, discover<br>an unprecedented offers of luxury properties</p>
+                <div>
+                    <button type="button">Catalog</button>
+                </div>
+            </div>
+            <div class="services">
+                <ul>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        apartment
+                        </span>All</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        pin_drop
+                        </span>Land lots</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        corporate_fare
+                        </span>Office</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        store
+                        </span>Store</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        location_city
+                        </span>Apartment</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        villa
+                        </span>Villa</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        house
+                        </span>House</a></li>
+                </ul>
+            </div>
+        </div>
+       
+
+    </body>
+</html>
