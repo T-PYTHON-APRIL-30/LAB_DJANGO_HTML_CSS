@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,600;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estate agency</title>
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        /* font-family: 'Work Sans', sans-serif; */
+        }
+        body {
+            font-family: 'Work Sans', sans-serif;
+            font: 1em sans-serif;
+            height: 150vh;
+        }
+        
+        .continer {
+            background-image: url("/static/images/builds.jpg");
+            display: flex;
+            height: 100vh;
+            background-size: cover;
+            flex-direction: column;
+            /* align-content: space-between; */
+            padding: 60px;
+        }
+        .nav-bar {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 50px;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 5rem;
+            margin-bottom: 6rem;
+            
+
+
+        }
+        .logo img{
+            width: 12rem;
+        } 
+        .control {
+            background-color: white;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 40rem;
+            height: 5rem;  
+        }
+        .signup {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 0.5rem;
+        }
+        
+        .contant{
+            align-items: start;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            width: 50%;
+        }
+        h1 {
+            font-size: 8rem;
+        }
+        p{
+            width: 80%;
+            font-size: 1.5rem;
+        }
+        .button{
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            width: 15rem;
+            height: 3rem;
+            background-color: black;
+            align-items: center;
+            border-radius: 40px;
+        }
+        .fixed{
+            background-color: aliceblue;
+            width: 80%;
+            height: 12rem;
+            position: fixed;
+            bottom: 2rem;
+            left: 9rem;
+            border-radius: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font: 1.2em sans-serif;
+            row-gap: 0.5rem;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            font-size: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="nav-bar">
+            <div class="logo"><img src="/static/images/logo.png" alt=""></div>
+            <div class="control">
+                <div style="color: cornflowerblue;">Home</div>
+                <div>Properties</div>
+                <div>Service</div>
+                <div>About</div>
+                <div>Contacts</div>
+            </div>
+            <div class="signup">
+                <span class="material-symbols-outlined">person</span>
+                <div>Sign Up</div>
+            </div>
+        </div>
+
+        <div class="contant">
+            <h1>Find Your Dream</h1>
+            <p>Our catalog will surprise you. Rather, discover an unprecedented offers of luxury properties</p>
+            <div class="button">Catalog</div>
+        </div>
+        
+        <div class="fixed">
+            <div class="item">
+                <span class="material-symbols-outlined icon" style="color: rgb(52, 105, 205);background-color: rgba(169, 188, 237, 0.5);">home_work</span>
+                <div style="color: rgb(51, 104, 202);">all</div>
+            </div>
+            <div class="item">
+                <span class="material-symbols-outlined icon" style="color: rgb(100, 237, 237);background-color: rgba(156, 211, 233, 0.5);">distance</span>
+                <div>land lots</div>
+            </div>
+            <div class="item">
+                <span class="material-symbols-outlined icon" style="color: rgb(111, 237, 100);background-color: rgba(169, 237, 177, 0.5);">domain</span>
+                <div>office</div>
+            </div>
+            <div class="item">
+                <span class="material-symbols-outlined icon" style="color: rgb(237, 232, 100);background-color: rgba(237, 237, 169, 0.5);">storefront</span>
+                <div>store</div>
+            </div>
+            <div class="item">
+                <span class="material-symbols-outlined icon" style="color: rgb(230, 100, 237);background-color: rgba(237, 169, 236, 0.5);">apartment</span>
+                <div>apartment</div>
+            </div>
+    
+            <div class="item">
+                <span class="material-symbols-outlined icon" style="color: rgb(237, 100, 100);background-color: rgba(237, 169, 178, 0.5);">store</span>
+                <div>villa</div>
+            </div>
+            <div class="item">
+                <span class="material-symbols-outlined icon" style="color: rgb(184, 100, 237);background-color: rgba(220, 169, 237, 0.5);">home</span>
+                <div>house</div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
